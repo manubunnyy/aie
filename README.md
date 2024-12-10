@@ -1,21 +1,20 @@
 # cneh_external
-# File Contents of the Repository
+## `bit.c`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/bit.c)
 
-Here are the contents of each file in this repository. Click the "Copy Link" to view the raw file content, and manually copy the code.
+## `byte.c`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/byte.c)
 
-## `file1.py`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/file1.py)
+## `crc`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/crc.c)
 
-## `file2.js`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/file2.js)
+## `dvr`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/dvr.c)
 
-## `file3.txt`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/file3.txt)
+## `fc-1`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/flowcontrol-1.c)
 
-## `file4.md`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/file4.md)
+## fc-2`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/flowcontrol-2.c)
 
----
-
-You can add more files in a similar manner.
 
