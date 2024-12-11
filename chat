@@ -1,0 +1,10 @@
+response(hello, 'Hi! How can I help you?').
+response(how_are_you, 'I am just a program, but I am fine!').
+response(exit, 'Goodbye!').
+
+chatbot :- 
+    write('You: '), 
+    read(Input), 
+    (Input = exit -> write('Goodbye!'), !;
+    response(Input, Response) -> write(Response), nl, chatbot;
+    write('I do not understand.'), nl, chatbot).
