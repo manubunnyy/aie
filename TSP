@@ -16,3 +16,5 @@ total_distance([X, Y | Rest], TotalDistance) :-
 tsp(Cities, Path, Distance) :-
     permutation(Cities, Path),
     total_distance(Path, Distance).
+
+%tsp([a, b, c, d], Path, Distance).
