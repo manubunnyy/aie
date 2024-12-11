@@ -1,0 +1,6 @@
+hanoi(0, _, _, _, []).
+hanoi(N, Source, Target, Aux, Moves) :-
+    N > 0, N1 is N - 1,
+    hanoi(N1, Source, Aux, Target, M1),
+    hanoi(N1, Aux, Target, Source, M2),
+    append(M1, [move(Source, Target)], Moves).
