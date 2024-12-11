@@ -1,0 +1,23 @@
+:- use_module(library(clpfd)).
+solve(Sudoku) :-
+    Sudoku = [S11, S12, S13, S21, S22, S23, S31, S32, S33],
+    
+    Sudoku ins 1..3,
+    
+    all_distinct([S11, S12, S13]),
+    all_distinct([S21, S22, S23]),
+    all_distinct([S31, S32, S33]),
+    
+    all_distinct([S11, S21, S31]),
+    all_distinct([S12, S22, S32]),
+    all_distinct([S13, S23, S33]),
+    
+    label(Sudoku),
+    
+    write('Solution: '), nl,
+    print_grid(Sudoku).
+
+print_grid([S11, S12, S13, S21, S22, S23, S31, S32, S33]) :-
+    format('~w ~w ~w\n', [S11, S12, S13]),
+    format('~w ~w ~w\n', [S21, S22, S23]),
+    format('~w ~w ~w\n', [S31, S32, S33]).
