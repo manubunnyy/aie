@@ -1,0 +1,5 @@
+father(john, mary).   
+father(john, jim).     
+mother(susan, mary).   
+mother(susan, jim).    
+
