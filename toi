@@ -4,3 +4,5 @@ hanoi(N, Source, Target, Aux, Moves) :-
     hanoi(N1, Source, Aux, Target, M1),
     hanoi(N1, Aux, Target, Source, M2),
     append(M1, [move(Source, Target)], Moves).
+
+%hanoi(3, a, c, b, Moves).
