@@ -24,3 +24,5 @@ sum_squares([], 0).
 sum_squares([X|Xs], S) :-
     sum_squares(Xs, R),
     S is X * X + R.
+
+%linear_regression([1, 2, 3, 4, 5], [2, 4, 5, 4, 5], A, B).
