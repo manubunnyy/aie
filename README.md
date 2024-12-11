@@ -1,20 +1,28 @@
-# cneh_external
-## `bit.c`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/bit.c)
+## `facts`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/facts)
 
-## `byte.c`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/byte.c)
+## `operators`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/operatos)
 
-## `crc`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/crc.c)
+## `chatbot`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/chat)
 
-## `dvr`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/dvr.c)
+## `DFS`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/DFS)
 
-## `fc-1`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/flowcontrol-1.c)
+## `TOI`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/toi)
 
-## fc-2`  
-[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/flowcontrol-2.c)
+## `Linear`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/linear)
+
+## `sudoku`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/sudoku)
+
+## `TSP`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/TSP)
+
+## `N-Queen`  
+[Copy Link](https://raw.githubusercontent.com/manubunnyy/cneh_external/main/nqueens)
 
 
