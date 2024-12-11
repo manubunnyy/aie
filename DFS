@@ -1,0 +1,22 @@
+edge(a, b).
+edge(a, c).
+edge(b, d).
+edge(b, e).
+edge(c, f).
+edge(d, g).
+edge(e, h).
+edge(f, h).
+edge(g, h).
+
+dfs(Start, Goal) :-
+    dfs_helper(Start, Goal, [Start]).
+
+dfs_helper(Goal, Goal, Visited) :-
+    write(Visited), nl.
+
+dfs_helper(Current, Goal, Visited) :-
+    edge(Current, Next),
+    \+ member(Next, Visited),
+    dfs_helper(Next, Goal, [Next | Visited]).
+
+% op :- dfs(a,h)
