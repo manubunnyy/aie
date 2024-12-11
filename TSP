@@ -1,0 +1,18 @@
+distance(a, b, 10).
+distance(b, c, 15).
+distance(c, d, 20).
+distance(d, a, 25).
+distance(a, c, 30).
+distance(b, d, 35).
+
+
+total_distance([_], 0).
+total_distance([X, Y | Rest], TotalDistance) :-
+    distance(X, Y, D),
+    total_distance([Y | Rest], RestDistance),
+    TotalDistance is D + RestDistance.
+
+
+tsp(Cities, Path, Distance) :-
+    permutation(Cities, Path),
+    total_distance(Path, Distance).
