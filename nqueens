@@ -18,3 +18,4 @@ safe_queen(Q, [Q1|Queens], Offset) :-
     Q #\= Q1 - Offset,
     Offset1 #= Offset + 1,
     safe_queen(Q, Queens, Offset1).
+%nqueens(4, Solution).
