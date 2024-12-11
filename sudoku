@@ -21,3 +21,5 @@ print_grid([S11, S12, S13, S21, S22, S23, S31, S32, S33]) :-
     format('~w ~w ~w\n', [S11, S12, S13]),
     format('~w ~w ~w\n', [S21, S22, S23]),
     format('~w ~w ~w\n', [S31, S32, S33]).
+
+%solve(Sudoku).
